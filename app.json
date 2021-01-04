@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "finalApp",
+    "name": "Memes Clan",
     "slug": "finalApp",
     "platforms": [
       "ios",
@@ -23,6 +23,15 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+     "android": {
+      "package": "com.memesclan.memesclan",
+      "config": {
+        "googleSignIn": {
+            "apiKey": "AIzaSyBRC0Qycw2UWPmOLG9Jckm_bF_mvLax2I8",
+            "certificateHash": "4BC951424B315766958FC498559CA55D9FC35807"
+        }
+      }
     }
   }
 }
